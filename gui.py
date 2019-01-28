@@ -8,7 +8,7 @@ def add_to_display():
 mainframe =   Frame(root)
 Label(text='0', height=2, bg= 'white', justify=LEFT, width=10).grid(row=0,columnspan=5, sticky='ew')
 
-Button(mainframe,text='ON',font=24, width=5,bg='#f00',fg='#fff').grid(row=1,column=0)
+Button(mainframe,text='ON',font=24, width=5,bg='#000',fg='#fff').grid(row=1,column=0)
 Button(mainframe,text='CE',font=24, width=5).grid(row=1,column=1)
 Button(mainframe,text='C',font=24, width=5).grid(row=1,column=2)
 Button(mainframe,text='*',font=24, width=5).grid(row=1,column=3)
